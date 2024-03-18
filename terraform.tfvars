@@ -1,0 +1,13 @@
+resource_group_name                  = "example-resources"
+location                             = "East US"
+keyvault_name                        = "example-keyvault"
+tenant_id                            = "<your_tenant_id>"
+action_group_name                    = "example-actiongroup"
+action_group_short_name              = "example-actiongroup"
+email_receiver_name                  = "notify-admins"
+email_receiver_address               = "admin@example.com"
+diagnostic_setting_name              = "example-keyvault-diag"
+log_analytics_workspace_name         = "example-law"
+log_analytics_workspace_sku          = "PerGB2018"
+log_analytics_workspace_retention_days = 30
+activity_log_alert_name              = "example-keyvault-alert"
